@@ -3,6 +3,9 @@
     --text: #1a1a1a;
     --muted: #555;
     --accent: #2563eb;
+    /* bright blue accent */
+    --nav-bg: #e0ebff;
+    /* muted light blue for navbar */
     --border: #e5e7eb;
 }
 
@@ -42,10 +45,14 @@ nav {
     display: flex;
     gap: 1.5rem;
     font-size: 0.95rem;
+    background-color: var(--nav-bg);
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
 }
 
 nav a {
     color: var(--muted);
+    font-weight: 500;
 }
 
 nav a:hover {
@@ -88,7 +95,11 @@ section {
 
 footer {
     border-top: 1px solid var(--border);
-    padding-top: 1.5rem;
+    padding: 1.5rem;
     font-size: 0.9rem;
     color: var(--muted);
+    background-color: var(--nav-bg);
+    /* muted blue */
+    border-radius: 8px;
+    text-align: center;
 }
