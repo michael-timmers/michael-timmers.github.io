@@ -5,7 +5,7 @@ layout: base.njk
 
 ## Projects
 
-Here are some of my projects. Each is small, focused, and designed to teach or explore a concept.
+here are some projects I am proud of.
 
 ## **Mandelbrot set visualisation**  
 An app that visualises the Mandelbrot set and allows zooming and panning.
