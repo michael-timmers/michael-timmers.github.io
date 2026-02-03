@@ -5,16 +5,21 @@ layout: base.njk
 
 ## Blog
 
-My blog  lives on HashNode, a free platform
+My blog lives at HashNode.
 
 <div class="cta">
-  <a class="primary" href="https://michaeltimmers.hashnode.dev/" target="_blank">Read the blog</a>
+  <a class="primary" href="https://michaeltimmers.hashnode.dev" target="_blank">
+    Visit the full blog
+  </a>
 </div>
 
 ---
 
-### Recent Posts
+## Recent posts
 
+
+
+---
 
 <div class="cta">
   <a href="/">Back to Home</a>
